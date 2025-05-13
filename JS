@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar {
+    background-image: linear-gradient(to left, #1a3020, #a5b0a8, white);
+    padding: 10px;
+    height: 57px;
+}
+
+.nav-heading {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.profile-logo {
+    background-color: #383734;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+
+}
+
+.icon-logo {
+    background-color: white;
+    color: white;
+}
+
+.home-bg {
+    /* background-color: #45543d; */
+    background-image: url("https://img.freepik.com/free-photo/polluted-city-background_1149-2010.jpg?t=st=1744967374~exp=1744970974~hmac=8f0f3d7874c4ccdce7c7a99e147b81623f3296aef4e316dfb38c545b2c67b7d6&w=900");
+    height: 100vh;
+    background-size: cover;
+}
+
+.home2 {
+    background-image: url("https://img.freepik.com/free-photo/aerial-view-flooding-natural-devastation_1268-26907.jpg?t=st=1744969032~exp=1744972632~hmac=fae8e0ab59e72428c4b9f95cc9c7d52c911043671094ebd5b3db0d61e8609312&w=1380");
+    background-size: cover;
+
+}
+
+.sign-in-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15vh;
+    height: 50vh;
+    font-family: "Roboto";
+    width: 50vw;
+    padding: 15px;
+    box-shadow: 2px 2px #1e2420;
+
+
+}
+
+.sign-up-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15vh;
+    height: 53vh;
+    font-family: "Roboto";
+    width: 50vw;
+    padding: 15px;
+
+}
+
+
+.sign-in-sign-up {
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.input-sign-in {
+    height: 5vh;
+    margin-top: 3vh;
+    width: 38vw;
+    font-size: 2vh;
+}
+
+.sign-in-sign-up-button {
+    margin-top: 4vh;
+    height: 30px;
+    width: 80px;
+    font-size: 13px;
+
+
+}
+
+.alert-message {
+    color: red;
+    font-size: 65%;
+    margin-top: 4%;
+    font-family: "Roboto";
+}
+
+.signin-sign-up-link {
+    color: blue;
+    font-size: 75%;
+    margin-top: -1vw;
+    font-family: "Roboto";
+}
+
+
+
+.profile-bg {
+    background-color: #78746b;
+    height: 100vh;
+}
+
+.profile-page-logo {
+    margin-top: 30px;
+    border-radius: 60px;
+    width: 75px;
+    height: 75px;
+    background-color: black;
+}
+
+.username-profile-page {
+    font-size: 30px;
+    margin-top: 25px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.usertype-profile-page {
+    font-size: 20px;
+    margin-top: -10px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.profile-top-container {
+    height: 80px;
+}
+
+.proceedButtonLoginPage {
+    height: 30px;
+    width: 100px;
+    color: white;
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 7px;
+    background-color: green;
+    font-size: 15px;
+    padding-top: -17px;
+}
+
+
+
+.quoteHome {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px grey;
+}
+
+.HomeCard {
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.disaster-type-home {
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: "Roboto";
+    font-weight: 600;
+
+}
+
+.funds-needed-collected {
+    font-size: 13px;
+}
+
+.detailed-bg-container {
+    /* background-color: #ccede4; */
+    background-image: linear-gradient(to left top, #1a3020, #a5b0a8, white);
+    height: 160vh;
+
+}
+
+.detailed-name {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 600;
+
+}
+
+.detailed-description {
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: "bree serif";
+}
+
+
+.modal-image {
+    height: 50vh;
+    width: 50vh;
+}
+
+.crews-cotainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.crew-container {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+}
